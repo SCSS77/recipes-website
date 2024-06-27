@@ -1,0 +1,38 @@
+.favorites {
+
+  &-section {
+    margin: 0 auto;
+    padding: 1rem;
+
+    &__list {
+      list-style: none;
+      padding: 0;
+    }
+
+    &__item {
+      display: flex;
+      align-items: center;
+      margin-bottom: 1rem;
+    }
+
+    &__image {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      margin-right: 1rem;
+    }
+
+    &__button {
+      background-color: #dc3545;
+      color: $white;
+      border: none;
+      padding: .5rem;
+      border-radius: .5rem;
+      cursor: pointer;
+
+      &:hover {
+        background-color: #c82333;
+      }
+    }
+  }
+}
