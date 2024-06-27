@@ -27,12 +27,14 @@
 <script lang="ts">
 import { defineComponent, ref, onMounted } from 'vue';
 import Search from '@/components/Search.vue';
+import RecipeCard from '@/components/RecipeCard.vue';
 import { useRecipeStore } from '@/stores/recipes';
 
 export default defineComponent({
   name: 'HomeView',
   components: {
-    Search
+    Search,
+    RecipeCard
   },
   setup() {
     const recipeStore = useRecipeStore();
