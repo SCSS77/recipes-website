@@ -1,0 +1,25 @@
+.login {
+
+  &-section {
+    margin: 0 auto;
+    padding: 1rem;
+    background-color: #f8f9fa;
+    border-radius: .5rem;
+
+    &__form {
+
+      &-fieldset {
+        margin-bottom: 1rem;
+      }
+
+      &-button {
+        width: 100%;
+        padding: .5rem;
+        background-color: #007bff;
+        color: $white;
+        border: none;
+        border-radius: .5rem;
+      }
+    }
+  }
+}

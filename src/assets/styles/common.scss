@@ -1,0 +1,32 @@
+@import "utils/_variables.scss";
+@import "utils/_reset.scss";
+
+@import "widgets/header.scss";
+@import "widgets/card-recipe.scss";
+@import "widgets/footer.scss";
+
+@import "pages/section-search.scss";
+@import "pages/section-home.scss";
+@import "pages/section-login.scss";
+@import "pages/section-favorites.scss";
+@import "pages/section-recipes.scss";
+@import "pages/section-recipe.scss";
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  color: $black;
+  font-family: $body_font_family;
+  font-size: $body_font_size;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.container {
+  max-width: 69.375rem;
+  margin: 0 auto;
+}
